@@ -1,3 +1,53 @@
-#heading{
-    color: red;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    
+}
+.logo{
+    width: 170px;
+}
+.nav-items {
+    padding: 0 20px;
+    font-size: 24px;
+}
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items >ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    gap: 13px;
+    display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  /* justify-content: space-around; */
+   /* Distribute space between and around cards */
+  align-items: flex-start; 
+}
+
+.res-card{
+    background-color: #f0f0f1;
+    width: 210px;
+    height: 450px;
+    padding: 5px;
+}
+.res-card:hover{
+    border: 1px solid rgba(13, 1, 1, 0.748);
+    cursor: pointer;
+}
+.search{
+    padding: 20px ;
+}
+.res-logo{
+    width: 100%;
+}
+.filter-btn{
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
 }
